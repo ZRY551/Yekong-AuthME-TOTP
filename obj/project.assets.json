@@ -1,0 +1,144 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "BouncyCastle.NetCore/1.9.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "BouncyCastle.NetCoreSdk/1.9.7": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/BouncyCastle.Crypto.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/BouncyCastle.Crypto.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BouncyCastle.NetCore/1.9.0": {
+      "sha512": "FpWfsqjMp+RNavLqMlviDPlbdf7q4j/pr9SHfc1LKcZz5PRjciuYo59nFnw+eJi+H8cm0eH5uVZStwAv1LRdCw==",
+      "type": "package",
+      "path": "bouncycastle.netcore/1.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bouncycastle.netcore.1.9.0.nupkg.sha512",
+        "bouncycastle.netcore.nuspec",
+        "lib/net20/BouncyCastle.Crypto.dll",
+        "lib/net20/BouncyCastle.Crypto.xml",
+        "lib/netstandard2.0/BouncyCastle.Crypto.dll",
+        "lib/netstandard2.0/BouncyCastle.Crypto.xml"
+      ]
+    },
+    "BouncyCastle.NetCoreSdk/1.9.7": {
+      "sha512": "r1vIYQpxYvqQUC0fGVzEJqt+ralBOUl/wcaAd6cl1fUmFqnIdZgvDPLHHOGktYMaQWgNZ4KGsFv5/AtwLx3HuA==",
+      "type": "package",
+      "path": "bouncycastle.netcoresdk/1.9.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "README.md",
+        "bouncycastle.netcoresdk.1.9.7.nupkg.sha512",
+        "bouncycastle.netcoresdk.nuspec",
+        "lib/net461/BouncyCastle.Crypto.dll",
+        "lib/net481/BouncyCastle.Crypto.dll",
+        "lib/net6.0/BouncyCastle.Crypto.dll",
+        "lib/netstandard2.0/BouncyCastle.Crypto.dll",
+        "lib/netstandard2.1/BouncyCastle.Crypto.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "BouncyCastle.NetCore >= 1.9.0",
+      "BouncyCastle.NetCoreSDK >= 1.9.7"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ZRY551\\.nuget\\packages\\": {},
+    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "e:\\Users\\ZRY551\\Desktop\\Files\\yekong-authme-libs\\yekong-authme-totp-cs\\yekong-authme-totp-cs.csproj",
+      "projectName": "yekong-authme-totp-cs",
+      "projectPath": "e:\\Users\\ZRY551\\Desktop\\Files\\yekong-authme-libs\\yekong-authme-totp-cs\\yekong-authme-totp-cs.csproj",
+      "packagesPath": "C:\\Users\\ZRY551\\.nuget\\packages\\",
+      "outputPath": "e:\\Users\\ZRY551\\Desktop\\Files\\yekong-authme-libs\\yekong-authme-totp-cs\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\ZRY551\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "BouncyCastle.NetCore": {
+            "target": "Package",
+            "version": "[1.9.0, )"
+          },
+          "BouncyCastle.NetCoreSDK": {
+            "target": "Package",
+            "version": "[1.9.7, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
