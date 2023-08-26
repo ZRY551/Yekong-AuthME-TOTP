@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
+    "net6.0": {
       "BouncyCastle.NetCore/1.9.0": {
         "type": "package",
         "compile": {
@@ -62,7 +62,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net7.0": [
+    "net6.0": [
       "BouncyCastle.NetCore >= 1.9.0",
       "BouncyCastle.NetCoreSDK >= 1.9.7"
     ]
@@ -75,7 +75,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "e:\\Users\\ZRY551\\Desktop\\Files\\yekong-authme-libs\\yekong-authme-totp-cs\\yekong-authme-totp-cs.csproj",
-      "projectName": "yekong-authme-totp-cs",
+      "projectName": "Yekong.AuthME.TOTP",
       "projectPath": "e:\\Users\\ZRY551\\Desktop\\Files\\yekong-authme-libs\\yekong-authme-totp-cs\\yekong-authme-totp-cs.csproj",
       "packagesPath": "C:\\Users\\ZRY551\\.nuget\\packages\\",
       "outputPath": "e:\\Users\\ZRY551\\Desktop\\Files\\yekong-authme-libs\\yekong-authme-totp-cs\\obj\\",
@@ -89,7 +89,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net7.0"
+        "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -97,8 +97,8 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {}
         }
       },
@@ -109,8 +109,8 @@
       }
     },
     "frameworks": {
-      "net7.0": {
-        "targetAlias": "net7.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "dependencies": {
           "BouncyCastle.NetCore": {
             "target": "Package",

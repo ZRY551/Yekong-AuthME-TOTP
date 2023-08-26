@@ -2,10 +2,16 @@
 
   <PropertyGroup>
     <OutputType>library</OutputType>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <RootNamespace>Yekong_AuthME_TOTP</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <PackageId>Yekong.AuthME.TOTP</PackageId>
+    <Version>1.0.0</Version>
+    <Owners>ZRY551</Owners>
+    <Description>Some simple TOTP tools can be used to generate longer verification codes or tokens.</Description>
+    <Authors>ZRY551</Authors>
   </PropertyGroup>
 
   <ItemGroup>
